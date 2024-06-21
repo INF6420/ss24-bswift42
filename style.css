@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: lightblue;
+    color: purple;
+    font-family: helvetica, sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    padding: 60px;
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+    font-size: 30px;
+
+    height: 200px; 
+    background-image: url('image/unnamed.png'); 
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: left;
+
+    text-align: center;
+        
+
+  } 
+
+  img {
+    border-radius: 50%;
+  }
+
+
+.ul{
+    list-style-type: none;
+}
+  
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: lightblue;
+  text-align: center;
+  padding: 60px;
+  text-align: center;
+  background: whitesmoke;
+  color: black;
+  font-size: 30px;
+}
+
+.rectangle1{
+    width: 200px; 
+    height: 100px; 
+    background-color: whitesmoke; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+  }
+  
+  .rectangle2{
+    width: 200px; 
+    height: 100px; 
+    background-color: whitesmoke; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+  }
+
+  .rectangle3{
+    width: 200px; 
+    height: 100px; 
+    background-color: whitesmoke; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+  }
+
+  .rectangle4{
+    width: 200px; 
+    height: 100px; 
+    background-color: whitesmoke; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin:0 auto
+    
+  }
+
+  .rectangle5{
+    width: 200px; 
+    height: 100px; 
+    background-color: whitesmoke; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+       
+  }
+
+  .rectangle6{
+    width: 200px; 
+    height: 100px; 
+    background-color: whitesmoke; 
+    border: 2px solid #333; 
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+  }
+
+  .rectangle p {
+    text-align: center; 
+    color: black; 
+    font-size: 16px; 
+  }
+
