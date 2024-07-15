@@ -7,7 +7,6 @@
     <title>Brianne Swift Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header class="header">
         <img src="images/unnamed.png" alt="Brianne Swift Photo" class="header photo"> 
@@ -17,16 +16,36 @@
             <li><a href="artifacts.html">Artifacts</a></li>
             <li><a href="reflectiveessay.html">Reflective Essay</a></li>
             <li><a href="homepage.html">Homepage</a></li>
-            <li><a href="Contact.html">Contact</a></li>
         </div>
     </header>
+    <main>
+        <form
+        action="https://formspree.io/f/xqazalbw"
+        method="POST"
+        class="validate"
+      >
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" class="form-input" required>
+       
+      <label for="email">Email</label>
+      <input id="email" type="email" name="_replyto" class="form-input" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message"
+      class="form-input" rows="2" required></textarea>
+    
+      <input type="submit" value="Send">
+    </form>
 
- 
+    </main>
+
 
     <footer class="footer">
         <h5>Contact Information</h5>
         <email>bswift42@gmail.com</email>
         <tel>734-740-1590</tel>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
