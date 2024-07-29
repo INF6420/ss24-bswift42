@@ -17,3 +17,5 @@ Artifacts page will include same heading banner as Homepage, home button, naviga
 ![Wireframe of Reflective Essay](Wireframes/Reflective%20Essay.jpg)
 
 Reflective Essay page will include same heading banner as Homepage, home button, navigation links to other pages, and link to Reflective Essay.
+
+Editing to create pull request for final project.
